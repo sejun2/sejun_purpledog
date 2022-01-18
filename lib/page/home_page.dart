@@ -21,6 +21,9 @@ class HomePage extends GetView<HomeController> {
     Get.put(HomeController());
 
     return Scaffold(
+     appBar: AppBar(
+       title: Text('Sejun purpledog assignment'),
+     ),
       body: SafeArea(
         child: Center(
           child: Stack(children: [

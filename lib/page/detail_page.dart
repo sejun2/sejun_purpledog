@@ -26,6 +26,9 @@ class _DetailPageState extends State<DetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Sejun purpledog assignment'),
+      ),
       body: SafeArea(
         child: Center(
           child: Column(
